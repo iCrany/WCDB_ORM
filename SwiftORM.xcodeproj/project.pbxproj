@@ -13,6 +13,21 @@
 		ECEC76B021E22ABC00B9CBD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECEC76AF21E22ABC00B9CBD1 /* Assets.xcassets */; };
 		ECEC76B321E22ABC00B9CBD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEC76B121E22ABC00B9CBD1 /* LaunchScreen.storyboard */; };
 		ECEC76BE21E22ABC00B9CBD1 /* SwiftORMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC76BD21E22ABC00B9CBD1 /* SwiftORMUITests.swift */; };
+		ECEC771321E22BA000B9CBD1 /* Describable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC76E621E22BA000B9CBD1 /* Describable.swift */; };
+		ECEC772921E22BA000B9CBD1 /* Column.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC76FC21E22BA000B9CBD1 /* Column.swift */; };
+		ECEC772C21E22BA000B9CBD1 /* LiteralValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC76FF21E22BA000B9CBD1 /* LiteralValue.swift */; };
+		ECEC772D21E22BA000B9CBD1 /* FundamentalValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC770021E22BA000B9CBD1 /* FundamentalValue.swift */; };
+		ECEC773721E22BA000B9CBD1 /* ColumnDef.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC770A21E22BA000B9CBD1 /* ColumnDef.swift */; };
+		ECEC773B21E22BA000B9CBD1 /* ColumnType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC770E21E22BA000B9CBD1 /* ColumnType.swift */; };
+		ECEC774121E22C0200B9CBD1 /* Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC774021E22C0200B9CBD1 /* Convenience.swift */; };
+		ECEC774E21E2438000B9CBD1 /* CodableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC774321E2438000B9CBD1 /* CodableType.swift */; };
+		ECEC774F21E2438000B9CBD1 /* ColumnCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC774621E2438000B9CBD1 /* ColumnCodable.swift */; };
+		ECEC775021E2438000B9CBD1 /* ColumnTypeDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC774721E2438000B9CBD1 /* ColumnTypeDecoder.swift */; };
+		ECEC775121E2438000B9CBD1 /* TableCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC774821E2438000B9CBD1 /* TableCodable.swift */; };
+		ECEC775221E2438000B9CBD1 /* CodingTableKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC774921E2438000B9CBD1 /* CodingTableKey.swift */; };
+		ECEC775321E2438000B9CBD1 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC774B21E2438000B9CBD1 /* Property.swift */; };
+		ECEC775421E2438000B9CBD1 /* ColumnConstraintBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC774C21E2438000B9CBD1 /* ColumnConstraintBinding.swift */; };
+		ECEC775521E2438000B9CBD1 /* TableBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC774D21E2438000B9CBD1 /* TableBinding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +51,21 @@
 		ECEC76B921E22ABC00B9CBD1 /* SwiftORMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftORMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEC76BD21E22ABC00B9CBD1 /* SwiftORMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftORMUITests.swift; sourceTree = "<group>"; };
 		ECEC76BF21E22ABC00B9CBD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECEC76E621E22BA000B9CBD1 /* Describable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Describable.swift; sourceTree = "<group>"; };
+		ECEC76FC21E22BA000B9CBD1 /* Column.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Column.swift; sourceTree = "<group>"; };
+		ECEC76FF21E22BA000B9CBD1 /* LiteralValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiteralValue.swift; sourceTree = "<group>"; };
+		ECEC770021E22BA000B9CBD1 /* FundamentalValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FundamentalValue.swift; sourceTree = "<group>"; };
+		ECEC770A21E22BA000B9CBD1 /* ColumnDef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColumnDef.swift; sourceTree = "<group>"; };
+		ECEC770E21E22BA000B9CBD1 /* ColumnType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColumnType.swift; sourceTree = "<group>"; };
+		ECEC774021E22C0200B9CBD1 /* Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Convenience.swift; sourceTree = "<group>"; };
+		ECEC774321E2438000B9CBD1 /* CodableType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableType.swift; sourceTree = "<group>"; };
+		ECEC774621E2438000B9CBD1 /* ColumnCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColumnCodable.swift; sourceTree = "<group>"; };
+		ECEC774721E2438000B9CBD1 /* ColumnTypeDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColumnTypeDecoder.swift; sourceTree = "<group>"; };
+		ECEC774821E2438000B9CBD1 /* TableCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCodable.swift; sourceTree = "<group>"; };
+		ECEC774921E2438000B9CBD1 /* CodingTableKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodingTableKey.swift; sourceTree = "<group>"; };
+		ECEC774B21E2438000B9CBD1 /* Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		ECEC774C21E2438000B9CBD1 /* ColumnConstraintBinding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColumnConstraintBinding.swift; sourceTree = "<group>"; };
+		ECEC774D21E2438000B9CBD1 /* TableBinding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableBinding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +107,10 @@
 		ECEC76A721E22ABA00B9CBD1 /* SwiftORM */ = {
 			isa = PBXGroup;
 			children = (
+				ECEC774221E2438000B9CBD1 /* builtin */,
+				ECEC774421E2438000B9CBD1 /* core */,
+				ECEC773F21E22C0200B9CBD1 /* util */,
+				ECEC76E421E22BA000B9CBD1 /* abstract */,
 				ECEC76A821E22ABA00B9CBD1 /* AppDelegate.swift */,
 				ECEC76AA21E22ABA00B9CBD1 /* ViewController.swift */,
 				ECEC76AC21E22ABA00B9CBD1 /* Main.storyboard */,
@@ -94,6 +128,69 @@
 				ECEC76BF21E22ABC00B9CBD1 /* Info.plist */,
 			);
 			path = SwiftORMUITests;
+			sourceTree = "<group>";
+		};
+		ECEC76E421E22BA000B9CBD1 /* abstract */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC76E621E22BA000B9CBD1 /* Describable.swift */,
+				ECEC76FC21E22BA000B9CBD1 /* Column.swift */,
+				ECEC76FF21E22BA000B9CBD1 /* LiteralValue.swift */,
+				ECEC770021E22BA000B9CBD1 /* FundamentalValue.swift */,
+				ECEC770A21E22BA000B9CBD1 /* ColumnDef.swift */,
+				ECEC770E21E22BA000B9CBD1 /* ColumnType.swift */,
+			);
+			name = abstract;
+			path = Source/abstract;
+			sourceTree = "<group>";
+		};
+		ECEC773F21E22C0200B9CBD1 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC774021E22C0200B9CBD1 /* Convenience.swift */,
+			);
+			name = util;
+			path = Source/util;
+			sourceTree = "<group>";
+		};
+		ECEC774221E2438000B9CBD1 /* builtin */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC774321E2438000B9CBD1 /* CodableType.swift */,
+			);
+			name = builtin;
+			path = Source/builtin;
+			sourceTree = "<group>";
+		};
+		ECEC774421E2438000B9CBD1 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC774521E2438000B9CBD1 /* codable */,
+				ECEC774A21E2438000B9CBD1 /* binding */,
+			);
+			name = core;
+			path = Source/core;
+			sourceTree = "<group>";
+		};
+		ECEC774521E2438000B9CBD1 /* codable */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC774621E2438000B9CBD1 /* ColumnCodable.swift */,
+				ECEC774721E2438000B9CBD1 /* ColumnTypeDecoder.swift */,
+				ECEC774821E2438000B9CBD1 /* TableCodable.swift */,
+				ECEC774921E2438000B9CBD1 /* CodingTableKey.swift */,
+			);
+			path = codable;
+			sourceTree = "<group>";
+		};
+		ECEC774A21E2438000B9CBD1 /* binding */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC774B21E2438000B9CBD1 /* Property.swift */,
+				ECEC774C21E2438000B9CBD1 /* ColumnConstraintBinding.swift */,
+				ECEC774D21E2438000B9CBD1 /* TableBinding.swift */,
+			);
+			path = binding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +294,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECEC775321E2438000B9CBD1 /* Property.swift in Sources */,
+				ECEC775521E2438000B9CBD1 /* TableBinding.swift in Sources */,
+				ECEC772C21E22BA000B9CBD1 /* LiteralValue.swift in Sources */,
+				ECEC775121E2438000B9CBD1 /* TableCodable.swift in Sources */,
+				ECEC774121E22C0200B9CBD1 /* Convenience.swift in Sources */,
+				ECEC774E21E2438000B9CBD1 /* CodableType.swift in Sources */,
 				ECEC76AB21E22ABA00B9CBD1 /* ViewController.swift in Sources */,
+				ECEC775421E2438000B9CBD1 /* ColumnConstraintBinding.swift in Sources */,
+				ECEC772921E22BA000B9CBD1 /* Column.swift in Sources */,
+				ECEC773B21E22BA000B9CBD1 /* ColumnType.swift in Sources */,
+				ECEC771321E22BA000B9CBD1 /* Describable.swift in Sources */,
+				ECEC773721E22BA000B9CBD1 /* ColumnDef.swift in Sources */,
+				ECEC775021E2438000B9CBD1 /* ColumnTypeDecoder.swift in Sources */,
+				ECEC772D21E22BA000B9CBD1 /* FundamentalValue.swift in Sources */,
+				ECEC774F21E2438000B9CBD1 /* ColumnCodable.swift in Sources */,
+				ECEC775221E2438000B9CBD1 /* CodingTableKey.swift in Sources */,
 				ECEC76A921E22ABA00B9CBD1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
